@@ -1,0 +1,66 @@
+package chapter2;
+
+public class CharacterEx1 {
+	public static void main(String[ ] args) {
+		char ch1 = 'A';
+		System.out.println(ch1);
+		System.out.println((int)ch1);
+		
+		char ch2 = 66;
+		System.out.println(ch2);
+		
+		int ch3 = 67;
+		System.out.println(ch3);
+		System.out.println((char)ch3);
+	}
+}
+package chapter2;
+
+public class CharacterEx2 {
+
+	public static void main(String[] args) {
+		char ch1 = '한';
+		char ch2 = '\uD55C';
+		
+		System.out.println(ch1);
+		System.out.println(ch2);
+
+	}
+
+}
+
+
+package chapter2;
+
+public class IntegerVariable {
+
+	public static void main(String[] args) {
+		short sVal = 10;
+		byte bVal = 20;
+		System.out.println(sVal + bVal);
+	}
+
+}
+package chapter2;
+
+public class Variable1 {
+
+	public static void main(String[] args) {
+		int level;
+		level = 10;
+		System.out.println(level);
+
+	}
+
+}
+package chapter2;
+
+public class Variable2 {
+
+	public static void main(String[] args) {
+		int level = 10;
+		System.out.println(level);
+
+	}
+
+}
