@@ -64,3 +64,79 @@ public class Variable2 {
 	}
 
 }
+
+package chapter2;
+
+public class CharacterEx3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 65;
+		int b = -66;
+		char a2 = 65;
+		System.out.println((char)a);
+		System.out.println((char)b);
+		System.out.println(a2);
+
+	}
+
+}
+package chapter2;
+
+public class Constant {
+
+	public static void main(String[] args) {
+		final int MAX_NUM = 100;
+		final int MIN_NUM;
+		MIN_NUM = 0;
+		System.out.println(MAX_NUM);
+		System.out.println(MIN_NUM);
+
+	}
+
+}
+package chapter2;
+
+public class DoubleEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double dnum = 3.14;
+		float fnum = 3.14F;
+		
+		System.out.println(dnum);
+		System.out.println(fnum);
+	}
+
+}
+package chapter2;
+
+public class DoubleEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double dnum = 1;
+		for(int i = 0; i < 10000; i++) {
+			dnum = dnum + 0.1;
+		}
+		System.out.println(dnum);
+	}
+
+}
+package chapter2;
+
+public class ExplicitConversion {
+
+	public static void main(String[] args) {
+		double dNum1 = 1.2;
+		float fNum2 = 0.9F;
+		
+		int iNum3 = (int)dNum1 + (int)fNum2;
+		int iNum4 = (int)(dNum1 + fNum2);
+		System.out.println(iNum3);
+		System.out.println(iNum4);
+
+	}
+
+}
+
